@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Beleza Facial</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1 class="titulo-principal">Beleza Facial</h1>
+	</header>
+
+	<!-- Imagem principal/banner -->
+	<img id="banner" src="banner.jpg.jfif" alt="Tratamento facial profissional" width= "400>"
+	<div class="principal">
+		<h2 class="titulo-centralizado">Sobre a Beleza Facial</h2>
+
+		<p>A <strong>beleza facial</strong> está diretamente ligada ao cuidado com a pele, à autoestima e à forma como nos apresentamos ao mundo. Cuidar do rosto é mais do que uma questão estética
+			 — é também saúde, bem-estar e autoconfiança.</p>
+		<img id="banner" src="transferir (2).jfif" alt="Tratamento facial profissional" width= "200>
+		<p>Com o avanço da tecnologia, hoje existem diversos procedimentos faciais acessíveis:
+		 desde simples limpezas de pele até tratamentos com ácidos, laser e equipamentos de alta tecnologia. Profissionais da área de estética estão capacitados para avaliar o tipo de pele e indicar os melhores cuidados,
+		  seja para hidratar, rejuvenescer ou prevenir problemas como acne e manchas.</p>
+
+		<p id="missao"><em> Nossa missão é: <strong>"Valorizar a beleza natural e promover o cuidado com a pele e a autoestima, respeitando a individualidade de cada pessoa."</strong></em></p>
+
+		<p>Além disso, o cuidado com a pele envolve também hábitos saudáveis: boa alimentação, hidratação, uso de protetor solar e higiene diária. A combinação de cuidados estéticos com um estilo de vida equilibrado gera resultados mais eficazes e duradouros.</p>
+	</div>
+
+	<div class="beneficios">
+		<h3 class="titulo-centralizado">Pontos Positivos</h3>
+
+		<ul>
+			<li class="itens">Melhora significativa da autoestima</li>
+			<li class="itens">Pele mais saudável, hidratada e com aparência jovem</li>
+			<li class="itens">Prevenção de acne, manchas e sinais de envelhecimento</li>
+			<li class="itens">Relaxamento e bem-estar durante os procedimentos</li>
+			<li class="itens">Mais confiança na vida pessoal e profissional</li>
+		</ul>
+
+		<!-- Imagem de pontos positivos -->
+		<img src="transferir (1).jfif" width="200" class="imagembeneficios" alt="Mulher recebendo tratamento facial">
+	</div>
+
+	<div class="beneficios">
+		<h3 class="titulo-centralizado">Pontos Negativos</h3>
+
+		<ul>
+			<li class="itens">Alguns tratamentos podem ser caros</li>
+			<li class="itens">Excesso de procedimentos pode causar efeitos colaterais</li>
+			<li class="itens">Nem todos os produtos são adequados para todos os tipos de pele</li>
+			<li class="itens">Resultados nem sempre são imediatos</li>
+			<li class="itens">É preciso manter uma rotina constante para ter benefícios duradouros</li>
+		</ul>
+
+		<!-- Imagem de pontos negativos -->
+		<img src="foto.procedimento.jfif" width= "200" class="imagembeneficios" alt="Reações de pele após procedimento">
+	</div>
+</body>
+</html>
