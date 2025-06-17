@@ -1,0 +1,153 @@
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f4f7f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    color: #0b74de;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #0b74de;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(11,116,222,0.3);
+}
+
+h2 {
+    color: #0b74de;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0b74de;
+    padding-bottom: 5px;
+}
+
+.servicos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.servicos-lista article {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.servicos-lista article:hover {
+    transform: translateY(-8px);
+}
+
+.servicos-lista img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+section#localizacao iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: inside disc;
+    margin-bottom: 30px;
+}
+
+#contato a {
+    color: #0b74de;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+    background: #e7f1ff;
+    border-left: 6px solid #0b74de;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+#acao {
+    background: #0b74de;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 0 15px rgba(11,116,222,0.5);
+}
+
+#acao .btn {
+    display: inline-block;
+    background: white;
+    color: #0b74de;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#acao .btn:hover {
+    background-color: #e0e8ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+
+
