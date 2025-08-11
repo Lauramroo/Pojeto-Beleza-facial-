@@ -1,108 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SkinTech - Limpeza Facial Avançada</title>
-    <link rel="stylesheet" href="style.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style-home.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Barbearia Alura</title>
 </head>
+
 <body>
-    <header>
-        <h1>SkinTech - Limpeza Facial Avançada</h1>
-        <nav>
-            <a href="#servicos">O que fazemos</a>
-            <a href="#localizacao">Localização</a>
-            <a href="#contato">Contato</a>
-            <a href="#depoimentos">Depoimentos</a>
-        </nav>
-    </header>
+	<header>
+		<div class="caixa">
+			<h1 class="logo"> <img class="titulo-principal" src="img/beleza facial.png">  Beleza Facial </h1>
 
-    <section class="intro">
-        <p>Na SkinTech, combinamos tecnologia de ponta e cuidado personalizado para oferecer a melhor limpeza de rosto da sua vida. Nosso objetivo é revelar a beleza natural da sua pele com tratamentos seguros, modernos e eficazes.</p>
-       <img src="img/luz-led.jfif" alt="Terapia com Luz LED">
-    </section>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<img class="banner" src="img/banner.jpg">
 
-    <section id="servicos">
-        <h2>O que fazemos</h2>
-        <div class="servicos-lista">
-            <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" alt="Ultrassom" />
-                <h3>Limpeza de pele profunda com ultrassom</h3>
-                <p>Remove impurezas sem agredir a pele.</p>
-            </article>
-            <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/1055/1055640.png" alt="Luz LED" />
-                <h3>Terapia com luz LED</h3>
-                <p>Estimula a produção de colágeno e ajuda na regeneração celular.</p>
-            </article>
-            <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="Microdermoabrasão" />
-                <h3>Microdermoabrasão</h3>
-                <p>Elimina células mortas para uma pele mais suave e renovada.</p>
-            </article>
-            <article>
-                <img src="https://cdn-icons-png.flaticon.com/512/1727/1727484.png" alt="Peeling ultrassônico" />
-                <h3>Peeling ultrassônico</h3>
-                <p>Promove hidratação e melhora a textura da pele.</p>
-            </article>
-        </div>
-    </section>
+	<main>
+		<p> qualquer conteudo que gostaria de escrever</p>
 
-    <section id="localizacao">
-        <h2>Localização</h2>
-        <p>Estamos localizados na Rua das Flores, 123 – Centro, Cidade Exemplo. Próximo ao Shopping Central.</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.559040817525!2d-46.65651778446914!3d-23.56321096881943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c1f6b5e2e1%3A0x50f69c0ee31f4c0a!2sRua%20das%20Flores%2C%20123%20-%20Centro!5e0!3m2!1spt-BR!2sbr!4v1595530204628!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-    </section>
+		<section class="principal">
+			<h2 class="titulo-principal">Sobre a Beleza Facial</h2>
 
-    <section id="horarios">
-        <h2>Horários de Funcionamento</h2>
-        <ul>
-            <li>Segunda a sexta: 9h às 19h</li>
-            <li>Sábado: 9h às 14h</li>
-            <li>Domingo: fechado</li>
-        </ul>
-    </section>
+			<img src="img/utensilios.jpg" alt="Utensilios de um barbeiro" class="utensilios">
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Telefone: (11) 99999-9999</p>
-        <p>E-mail: contato@skintech.com.br</p>
-        <p>Instagram: <a href="https://instagram.com/skintech_oficial" target="_blank">@skintech_oficial</a></p>
-    </section>
+			<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor
+				para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos
+				clientes a cada dia.</p>
 
-    <section id="diferenciais">
-        <h2>Diferenciais</h2>
-        <ul>
-            <li>Tecnologia de última geração para resultados visíveis</li>
-            <li>Equipe qualificada e atenciosa</li>
-            <li>Ambiente moderno e acolhedor</li>
-            <li>Atendimento personalizado para cada tipo de pele</li>
-        </ul>
-    </section>
+			<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos
+						clientes"</strong>.</em></p>
 
-    <section id="depoimentos">
-        <h2>Depoimentos / Resultados</h2>
-        <blockquote>"Fiz a limpeza com ultrassom e minha pele nunca esteve tão saudável e bonita. Recomendo!" – Ana S.</blockquote>
-        <blockquote>"O tratamento com luz LED melhorou muito a textura da minha pele. Estou apaixonada!" – João M.</blockquote>
-    </section>
+			<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui
+				padrão de
+				excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+		</section>
 
-    <section id="acao">
-        <h2>Agende sua avaliação</h2>
-        <p>Quer transformar a sua pele com tecnologia e cuidado? Agende agora uma avaliação gratuita e venha conhecer o SkinTech!</p>
-        <a href="tel:+11999999999" class="btn">Ligar Agora</a>
-    </section>
+		<section class="beneficios">
+			<h3 class="titulo-principal">Benefícios</h3>
 
-    <footer>
-        <p>© 2025 SkinTech. Todos os direitos reservados.</p>
-    </footer>
+			<div class="conteudo-beneficios">
+				<ul class="lista-beneficios">
+					<li class="itens">Atendimento aos Clientes</li>
+					<li class="itens">Espaço diferenciado</li>
+					<li class="itens">Localização</li>
+					<li class="itens">Profissionais Qualificados</li>
+					<li class="itens">Pontualidade</li>
+					<li class="itens">Limpeza</li>
+				</ul><img src="img/beneficios.jpg" class="imagem-beneficios">
+			</div>
+
+			<div class="video">
+				<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section class="mapa">
+			<h3 class="titulo-principal">Nosso estabelecimento</h3>
+			<p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+			<div class="mapa-conteudo">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+				</iframe>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<img src="img/logo-branco.png">
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2025</p>
+	</footer>
 </body>
+
 </html>
- 

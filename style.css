@@ -1,162 +1,303 @@
-/* Reset simples */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 body {
-    background: linear-gradient(135deg, #e0f2fe, #bae6fd); /* degrade suave azul claro */
-    color: #1e293b; /* azul escuro para texto */
-    line-height: 1.6;
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
-
+ 
 header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #60a5fa; /* azul suave */
+    background: #BBBBBB;
+    padding: 20px 0;
 }
 
-header h1 {
-    color: #2563eb; /* azul médio */
-    margin-bottom: 10px;
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: calc(40% - 26px);
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
-    margin: 0 10px;
-    color: #2563eb;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
     text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #1e40af; /* azul mais escuro */
+    color: #C78C19;
     text-decoration: underline;
 }
 
-.intro {
-    text-align: center;
-    margin: 30px 0;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.intro img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-}
-
-h2 {
-    color: #2563eb;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #2563eb;
-    padding-bottom: 5px;
-}
-
-.servicos-lista {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
-    margin-bottom: 40px;
-}
-
-.servicos-lista article {
-    background: #ffffffdd; /* branco semi-transparente */
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);
-    text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.servicos-lista article:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
-}
-
-.servicos-lista img {
-    width: 60px;
-    margin-bottom: 15px;
-}
-
-section#localizacao iframe {
-    width: 100%;
-    max-width: 600px;
-    height: 320px;
-    border: none;
-    border-radius: 12px;
-    margin-top: 15px;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
-}
-
-ul {
-    list-style: inside disc;
-    margin-bottom: 30px;
-}
-
-#contato a {
-    color: #2563eb;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-#contato a:hover {
-    color: #1e40af;
-    text-decoration: underline;
-}
-
-blockquote {
-    font-style: italic;
-    background: #dbeafe; /* azul bem claro */
-    border-left: 6px solid #2563eb;
-    padding: 18px 25px;
-    margin: 20px 0;
-    border-radius: 8px;
-    color: #1e293b;
-    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
-}
-
-#acao {
-    background: #2563eb;
-    color: white;
-    padding: 35px 25px;
-    text-align: center;
-    border-radius: 14px;
-    margin-top: 40px;
-    box-shadow: 0 8px 30px rgba(37, 99, 235, 0.6);
-}
-
-#acao .btn {
+.produtos li {
     display: inline-block;
-    background: white;
-    color: #2563eb;
-    padding: 14px 30px;
-    border-radius: 40px;
-    font-weight: 700;
-    margin-top: 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-#acao .btn:hover {
-    background-color: #dbeafe;
-    color: #1e293b;
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main {
+    
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "✔️";
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
 
 footer {
     text-align: center;
-    margin-top: auto;
-    padding: 20px 10px 10px 10px;
-    color: #475569;
-    font-size: 0.9rem;
-    border-top: 1px solid #60a5fa;
+    background: url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.mapa {
+    padding: 3em 0;
+    background-color: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+
+/* SELETORES AVANÇADOS PARA SEREM USADOS
+
+main p {
+    background: red;
+}
+
+main > p {
+    background: red; 
+}
+
+img + p { 
+    background: blue;
+}
+
+img ~ p {
+    background: yellow
+} 
+
+.principal p:not(#missao) {
+    background: orange;
+}
+
+*/
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
